@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "names": [
+    "foo",
+    "params",
+    "_array",
+    "split",
+    "_index",
+    "d",
+    "c",
+    "b",
+    "a",
+    "console",
+    "log"
+  ],
+  "sources": [
+    "unknown"
+  ],
+  "sourcesContent": [
+    "function foo(params) {\n  var a = 1;\n  var b = a + 1;\n  var c = b + 1;\n  var d = c + 1;\n  return d;\n}\nconsole.log(foo());\n"
+  ],
+  "mappings": "AAAA,SAASA,GAAGA,CAACC,MAAM;EAAA,IAAAC,MAAA,eAAAC,KAAA;IAAAC,MAAA;EAAA;IAAA,SAAAF,MAAA,CAAAE,MAAA;MAAA;QAKjB,OAAOC,CAAC;QAAC;MAAA;QAFT,IAAIC,CAAC,GAAGC,CAAC,GAAG,CAAC;QAAC;MAAA;QAFd,IAAIC,CAAC,GAAG,CAAC;QAAC;MAAA;QAGV,IAAIH,CAAC,GAAGC,CAAC,GAAG,CAAC;QAAC;MAAA;QAFd,IAAIC,CAAC,GAAGC,CAAC,GAAG,CAAC;QAAC;IAAA;IAAA;EAAA;AAAA;AAKhBC,OAAO,CAACC,GAAG,CAACV,GAAG,EAAE,CAAC"
+}

@@ -1,0 +1,48 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch ob-cli.js",
+      "program": "${workspaceFolder}/ob-cli.js",
+      "request": "launch",
+      // "stopOnEntry": true,
+      "console": "integratedTerminal",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "name": "Launch ob-cli.mjs",
+      "program": "${workspaceFolder}/ob-cli.mjs",
+      "request": "launch",
+      "stopOnEntry": true,
+      "console": "integratedTerminal",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "command": "npm run rollup:build",
+      "name": "npm run rollup:build",
+      "request": "launch",
+      "type": "node-terminal",
+    },
+    {
+      "command": "npm run webpack:loader:build",
+      "name": "npm run webpack:loader:build",
+      "request": "launch",
+      "type": "node-terminal",
+    },
+    {
+      "command": "npm run webpack:build",
+      "name": "npm run webpack:build",
+      "request": "launch",
+      "type": "node-terminal",
+    },
+  ]
+}

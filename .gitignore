@@ -1,0 +1,5 @@
+/dist-babel
+/dist-rollup
+/dist-webpack
+/dist-webpack-loader
+/node_modules
